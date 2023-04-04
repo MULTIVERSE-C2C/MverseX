@@ -1,0 +1,44 @@
+{
+  "name": "KAVA TokenList",
+  "timestamp": "2022-03-01T22:44:18.339Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "tokens": [
+    {
+      "logoURI": "https://i.ibb.co/zPVbkwc/USDC-32.png",
+      "chainId": 2222,
+      "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6
+    }
+    {
+      "logoURI": "https://i.ibb.co/0Zz0QFX/equilibre.png",
+      "chainId": 2222,
+      "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+      "name": "Vara",
+      "symbol": "VARA",
+      "decimals": 18
+    }
+{
+      "logoURI": "https://i.ibb.co/0KNg8hG/download.png",
+      "chainId": 2222,
+      "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+      "name": "Wrapped Kava",
+      "symbol": "WKAVA",
+      "decimals": 18
+    }
+{
+      "logoURI": "https://i.ibb.co/7jTNK20/images.png",
+      "chainId": 2222,
+      "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
+      "name": "Elk",
+      "symbol": "ELK",
+      "decimals": 18
+    }
+  ],
+  "logoURI": "https://i.ibb.co/f8yrPX4/Screenshot-20221206-144132-2-removebg-preview-32x32.png"
+}
