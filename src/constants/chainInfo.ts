@@ -212,22 +212,22 @@ const CHAIN_INFO: ChainInfoMap = {
   //   nativeCurrency: { name: 'Celo', symbol: 'CELO', decimals: 18 },
   //   defaultListUrl: CELO_LIST,
   // },
-  [SupportedChainId.SCROLL_ALPHA]: {
-    networkType: NetworkType.L2,
-    docs: 'https://docs.uniswap.org/',
-    explorer: 'https://blockscout.scroll.io/',
+  [SupportedChainId.KAVA]: {
+    networkType: NetworkType.L1,
+    docs: 'https://multiverse.fntokens.xyz',
+    explorer: 'https://explorer.kava.io/',
     infoLink: 'https://info.uniswap.org/#/',
-    label: 'Scroll Alpha',
+    label: 'KAVA',
     logoUrl: scrollLogo,
-    nativeCurrency: { name: 'Scroll Alpha Ether', symbol: 'ETH', decimals: 18 },
+    nativeCurrency: { name: 'KAVA', symbol: 'KAVA', decimals: 18 },
     //TODO: Add Scroll Brand Color
     color: darkTheme.chain_5,
 
     // Required for L2 networks
     blockWaitMsBeforeWarning: ms`10m`,
-    bridge: 'https://scroll.io/alpha/bridge/',
-    defaultListUrl: SCROLL_ALPHA_LIST,
-    helpCenterUrl: 'https://help.uniswap.org/en/collections/3137787-uniswap-on-arbitrum',
+    bridge: 'https://cbridge.celer.network/bridge/kava-ethereum/',
+    defaultListUrl: KAVA_LIST,
+    helpCenterUrl: 'https://t.me/mvfsupport',
   },
 }
 
