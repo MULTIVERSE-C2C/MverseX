@@ -153,11 +153,11 @@ export const MenuDropdown = () => {
                 alignItems={{ sm: 'center', md: 'flex-start' }}
                 paddingX="8"
               >
-                {/* <SecondaryLinkedText href="https://help.uniswap.org/en/">
+                { /*<SecondaryLinkedText href="https://t.me/f">
                   <Trans>Help center</Trans> ↗
                 </SecondaryLinkedText> */}
-                <SecondaryLinkedText href="https://guide.scroll.io/">
-                  <Trans>Scroll Guide</Trans> ↗
+                <SecondaryLinkedText href="https://multiverse.fntokens.xyz">
+                  <Trans>Website</Trans> ↗
                 </SecondaryLinkedText>
                 {/* <SecondaryLinkedText
                   onClick={() => {
@@ -174,7 +174,7 @@ export const MenuDropdown = () => {
                 )}
               </Box>
               <IconRow>
-                <Icon href="https://discord.gg/scroll">
+                <Icon href="https://discord.gg/AVRFrVGdN9">
                   <DiscordIconMenu
                     className={styles.hover}
                     width={24}
@@ -182,7 +182,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://twitter.com/Scroll_ZKP">
+                <Icon href="https://twitter.com/multiversec2c">
                   <TwitterIconMenu
                     className={styles.hover}
                     width={24}
@@ -190,7 +190,7 @@ export const MenuDropdown = () => {
                     color={themeVars.colors.textSecondary}
                   />
                 </Icon>
-                <Icon href="https://github.com/scroll-tech">
+                <Icon href="https://github.com/MULTIVERSE-C2C">
                   <GithubIconMenu
                     className={styles.hover}
                     width={24}
