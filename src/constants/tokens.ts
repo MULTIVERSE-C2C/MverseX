@@ -82,9 +82,9 @@ export const USDC_MAINNET = new Token(
 //   'USDC',
 //   'USD//C'
 // )
-const USDC_SCROLL_ALPHA = new Token(
-  SupportedChainId.SCROLL_ALPHA,
-  '0x38BA9a208F34Ddc9332f6DfC0E9d567f098958A4',
+const USDC_KAVA = new Token(
+  SupportedChainId.KAVA,
+  '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
   6,
   'USDC',
   'USD//C'
@@ -385,12 +385,12 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
   //   'CELO',
   //   'Celo native asset'
   // ),
-  [SupportedChainId.SCROLL_ALPHA]: new Token(
-    SupportedChainId.SCROLL_ALPHA,
-    '0xa1EA0B2354F5A344110af2b6AD68e75545009a03',
+  [SupportedChainId.KAVA]: new Token(
+    SupportedChainId.KAVA,
+    '0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b',
     18,
-    'WETH',
-    'Wrapped Ether'
+    'WKAVA',
+    'Wrapped Kava'
   ),
 }
 
@@ -399,8 +399,8 @@ export function isCelo(chainId: number) {
   return false
 }
 
-export function isScroll(chainId: number): chainId is SupportedChainId.SCROLL_ALPHA {
-  return chainId === SupportedChainId.SCROLL_ALPHA
+export function isScroll(chainId: number): chainId is SupportedChainId.KAVA {
+  return chainId === SupportedChainId.KAVA
 }
 
 // function getCeloNativeCurrency(chainId: number) {
@@ -480,6 +480,6 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in SupportedCha
     // [SupportedChainId.RINKEBY]: USDC_RINKEBY.address,
     // [SupportedChainId.KOVAN]: USDC_KOVAN.address,
     // [SupportedChainId.ROPSTEN]: USDC_ROPSTEN.address,
-    [SupportedChainId.SCROLL_ALPHA]: USDC_SCROLL_ALPHA.address,
+    [SupportedChainId.KAVA]: USDC_KAVA.address,
   },
 }
