@@ -30,7 +30,7 @@ function onError(error: Error) {
 }
 
 const [web3Network, web3NetworkHooks] = initializeConnector<Network>(
-  (actions) => new Network({ actions, urlMap: RPC_PROVIDERS, defaultChainId: 534353 })
+  (actions) => new Network({ actions, urlMap: RPC_PROVIDERS, defaultChainId: 2222 })
 )
 export const networkConnection: Connection = {
   connector: web3Network,
@@ -83,7 +83,7 @@ const [web3CoinbaseWallet, web3CoinbaseWalletHooks] = initializeConnector<Coinba
       actions,
       options: {
         url: RPC_URLS[SupportedChainId.MAINNET][0],
-        appName: 'Uniswap',
+        appName: 'MverseX',
         appLogoUrl: UNISWAP_LOGO_URL,
         reloadOnDisconnect: false,
       },
