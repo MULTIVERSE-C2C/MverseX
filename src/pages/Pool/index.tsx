@@ -202,7 +202,7 @@ export default function Pool() {
 
   const { positions, loading: positionsLoading } = useV3Positions(account)
 
-  if (chainId !== SupportedChainId.SCROLL_ALPHA) {
+  if (chainId !== SupportedChainId.KAVA) {
     return <WrongNetworkCard />
   }
 
@@ -256,7 +256,7 @@ export default function Pool() {
           <BookOpen size={16} />
         </PoolMenuItem>
       ),
-      link: 'https://docs.uniswap.org/',
+      link: 'https://multiverse.fntokens.xyz',
       external: true,
     },
   ]
@@ -306,7 +306,7 @@ export default function Pool() {
                     <ThemedText.DeprecatedBody color={theme.deprecated_text3} textAlign="center">
                       <InboxIcon strokeWidth={1} style={{ marginTop: '2em' }} />
                       <div>
-                        <Trans>Your active V3 liquidity positions will appear here.</Trans>
+                        <Trans>Your active liquidity positions will appear here.</Trans>
                       </div>
                     </ThemedText.DeprecatedBody>
                     {!showConnectAWallet && closedPositions.length > 0 && (
