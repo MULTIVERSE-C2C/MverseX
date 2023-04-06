@@ -83,17 +83,17 @@ export default function RadialGradientByChainUpdater(): null {
       //     'radial-gradient(100% 100% at 50% 0%, rgba(20, 49, 37, 0.29) 0%, rgba(12, 31, 23, 0.6536) 49.48%, rgba(31, 33, 40, 0) 100%, rgba(31, 33, 40, 0) 100%), #0D0E0E'
       //   backgroundRadialGradientElement.style.background = darkMode ? celoDarkGradient : celoLightGradient
       //   break
-      case SupportedChainId.SCROLL_ALPHA:
+      case SupportedChainId.KAVA:
         setBackground(backgroundResetStyles)
-        const scrollLightGradient = 'radial-gradient(142% 91% at 111% 84%, #EEE2D4FF 0%, #F8F2EAFF 100%), #FFFFFF'
+        const scrollLightGradient = 'radial-gradient(142% 91% at 111% 84%, #FF0000 0%, #FF3333 100%), #FFFFFF'
         const scrollDarkGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(110, 80, 120, 0.2) 0%, rgba(200, 148, 100, 0.05) 52.6%, rgba(0, 0, 0, 0) 100%), #0D0E0E'
+          'radial-gradient(100% 100% at 50% 0%, rgba(177, 55, 46, 0.94) 0%, rgba(218, 37, 40, 0.94) 52.6%, rgba(0, 0, 0, 0) 100%), #0D0E0E'
         backgroundRadialGradientElement.style.background = darkMode ? scrollDarkGradient : scrollLightGradient
         break
       default:
         setBackground(initialStyles)
         const defaultLightGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(255, 184, 226, 0.51) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
+          'radial-gradient(100% 100% at 50% 0%, rgba(255, 53, 38, 0.94) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
         const defaultDarkGradient = 'linear-gradient(180deg, #202738 0%, #070816 100%)'
         backgroundRadialGradientElement.style.background = darkMode ? defaultDarkGradient : defaultLightGradient
     }
