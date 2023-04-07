@@ -157,7 +157,7 @@ export function NetworkAlert() {
 
   if (!shouldShowAlert(chainId)) {
 
-    const textColor = TEXT_COLORS[SupportedChainId.SCROLL_ALPHA]
+    const textColor = TEXT_COLORS[SupportedChainId.KAVA]
 
     return (
       <RootWrapper>
