@@ -44,6 +44,7 @@ export const CHAIN_ID_TO_BACKEND_NAME: { [key: number]: Chain } = {
   // [SupportedChainId.ARBITRUM_RINKEBY]: 'ARBITRUM',
   // [SupportedChainId.OPTIMISM]: 'OPTIMISM',
   // [SupportedChainId.OPTIMISM_GOERLI]: 'OPTIMISM',
+  [SupportedChainId.KAVA]: 'KAVA',
 }
 
 export function chainIdToBackendName(chainId: number | undefined) {
@@ -58,6 +59,7 @@ const URL_CHAIN_PARAM_TO_BACKEND: { [key: string]: Chain } = {
   celo: 'CELO',
   arbitrum: 'ARBITRUM',
   optimism: 'OPTIMISM',
+  kava: 'KAVA',
 }
 
 export function validateUrlChainParam(chainName: string | undefined) {
@@ -70,9 +72,10 @@ export const CHAIN_NAME_TO_CHAIN_ID: { [key: string]: SupportedChainId } = {
   // CELO: SupportedChainId.CELO,
   // ARBITRUM: SupportedChainId.ARBITRUM_ONE,
   // OPTIMISM: SupportedChainId.OPTIMISM,
+  KAVA: SupportedChainId.KAVA,
 }
 
-export const BACKEND_CHAIN_NAMES: Chain[] = ['ETHEREUM', 'POLYGON', 'OPTIMISM', 'ARBITRUM', 'CELO']
+export const BACKEND_CHAIN_NAMES: Chain[] = ['ETHEREUM', 'POLYGON', 'OPTIMISM', 'ARBITRUM', 'CELO', 'KAVA']
 
 export function isValidBackendChainName(chainName: string | undefined): chainName is Chain {
   if (!chainName) return false
