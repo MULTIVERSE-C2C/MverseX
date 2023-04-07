@@ -12,6 +12,7 @@ const BLOCK_EXPLORER_PREFIXES: { [chainId: number]: string } = {
   // [SupportedChainId.POLYGON_MUMBAI]: 'https://mumbai.polygonscan.com',
   // [SupportedChainId.CELO]: 'https://celoscan.io',
   // [SupportedChainId.CELO_ALFAJORES]: 'https://alfajores-blockscout.celo-testnet.org',
+   [SupportedChainId.KAVA]: 'https://explorer.kava.io/',
 }
 
 export enum ExplorerDataType {
@@ -56,17 +57,17 @@ export function getExplorerLink(chainId: number, data: string, type: ExplorerDat
   //   }
   // }
 
-  if (chainId === SupportedChainId.SCROLL_ALPHA) {
+  if (chainId === SupportedChainId.KAVA) {
     switch (type) {
       case ExplorerDataType.TRANSACTION:
-        return `https://blockscout.scroll.io/tx/${data}`
+        return `https://explorer.kava.io/tx/${data}`
       case ExplorerDataType.ADDRESS:
       case ExplorerDataType.TOKEN:
-        return `https://blockscout.scroll.io/address/${data}`
+        return `https://explorer.kava.io/address/${data}`
       case ExplorerDataType.BLOCK:
-        return `https://blockscout.scroll.io/block/${data}`
+        return `https://explorer.kava.io/block/${data}`
       default:
-        return `https://blockscout.scroll.io/`
+        return `https://explorer.kava.io/`
     }
   }
 
