@@ -127,7 +127,7 @@ export default function NftExploreBanner() {
           <div className={bodySmall}>
             <Trans>The Future of crypto starts with us.</Trans>{' '}
             <Link href="https://multiverse.fntokens.xyz" title="MverseX Website">
-              <Trans>Learn more!
+              <Trans>Learn more!</Trans>
             </Link>{' '}
           </div>
         </TextContainer>
