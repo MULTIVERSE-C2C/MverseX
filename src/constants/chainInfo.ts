@@ -217,7 +217,7 @@ const CHAIN_INFO: ChainInfoMap = {
     docs: 'https://multiverse.fntokens.xyz',
     explorer: 'https://explorer.kava.io/',
     infoLink: 'https://info.uniswap.org/#/',
-    defaultListUrl: KAVA_LIST,
+
     label: 'KAVA',
     logoUrl: scrollLogo,
     nativeCurrency: { name: 'KAVA', symbol: 'KAVA', decimals: 18 },
@@ -241,7 +241,7 @@ export function getChainInfo(
 
 /**
  * Overloaded method for returning ChainInfo given a chainID
- * Return type varies depending on input type:
+ * Return type varies depending on input typ
  * number | undefined -> returns chaininfo | undefined
  * SupportedChainId -> returns L1ChainInfo | L2ChainInfo
  * SupportedL1ChainId -> returns L1ChainInfo
