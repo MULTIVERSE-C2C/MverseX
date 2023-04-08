@@ -213,7 +213,7 @@ const CHAIN_INFO: ChainInfoMap = {
   //   defaultListUrl: CELO_LIST,
   // },
   [SupportedChainId.KAVA]: {
-    networkType: NetworkType.L1,
+    networkType: NetworkType.L2,
     docs: 'https://multiverse.fntokens.xyz',
     explorer: 'https://explorer.kava.io/',
     infoLink: 'https://info.uniswap.org/#/',
