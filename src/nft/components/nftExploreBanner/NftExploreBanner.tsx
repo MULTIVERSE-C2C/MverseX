@@ -9,7 +9,7 @@ import styled from 'styled-components/macro'
 import { ExternalLink } from 'theme/components'
 import { Z_INDEX } from 'theme/zIndex'
 
-import scrollLogo from '../../../assets/svg/scroll_logo.svg'
+import Logo from '../../../assets/svg/logo.svg'
 // import nftPromoImage1 from '../nftExploreBanner/nftArt1.png'
 // import nftPromoImage2 from '../nftExploreBanner/nftArt2.png'
 // import nftPromoImage3 from '../nftExploreBanner/nftArt3.png'
@@ -115,19 +115,19 @@ export default function NftExploreBanner() {
   return (
     <PopupContainer show={!hideNftPromoBanner}>
       <InnerContainer>
-        <StyledImageContainer as="img" src={scrollLogo} draggable={false} />
+        <StyledImageContainer as="img" src={Logo} draggable={false} />
         <TextContainer>
           {/* <HeaderText> */}
           <div className={subhead}>
-            <Trans>Scroll &#9825; Uniswap</Trans>
+            <Trans>MverseX</Trans>
           </div>
           {/* </HeaderText> */}
 
           {/* <Description> */}
           <div className={bodySmall}>
-            <Trans>We&rsquo;re scaling Ethereum with the power of zero-knowledge proofs and open-source community.</Trans>{' '}
-            <Link href="https://scroll.io" title="Scroll.io">
-              <Trans>Learn more.</Trans>
+            <Trans>The Future of crypto starts with us.</Trans>{' '}
+            <Link href="https://multiverse.fntokens.xyz" title="MverseX Website">
+              <Trans>Learn more!
             </Link>{' '}
           </div>
         </TextContainer>
