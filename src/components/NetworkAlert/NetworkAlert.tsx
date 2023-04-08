@@ -47,6 +47,7 @@ const BG_COLORS_BY_DARK_MODE_AND_CHAIN_ID: {
   [darkMode in 'dark' | 'light']: { [chainId in NetworkAlertChains]: string }
 } = {
   dark: {
+    //   'radial-gradient(948% 292% at 42% 0%, rgba(255, 
     // [SupportedChainId.POLYGON]:
     //   'radial-gradient(100% 93.36% at 0% 6.64%, rgba(160, 108, 247, 0.1) 0%, rgba(82, 32, 166, 0.1) 100%)',
     // [SupportedChainId.POLYGON_MUMBAI]:
@@ -64,7 +65,7 @@ const BG_COLORS_BY_DARK_MODE_AND_CHAIN_ID: {
     // [SupportedChainId.ARBITRUM_RINKEBY]:
     //   'radial-gradient(285% 8200% at 30% 50%, rgba(40, 160, 240, 0.05) 0%, rgba(219, 255, 0, 0) 100%),radial-gradient(75% 75% at 0% 0%, rgba(150, 190, 220, 0.05) 0%, rgba(33, 114, 229, 0.1) 100%), hsla(0, 0%, 100%, 0.05)',
     [SupportedChainId.KAVA]:
-      'radial-gradient(100% 93.36% at 0% 6.64%, rgba(120, 128, 247, 0.1) 0%, rgba(62, 62, 160, 0.1) 100%)',
+      'radial-gradient(948% 292% at 42% 0%, rgba(255, 58, 212, 0.01) 0%, rgba(255, 255, 255, 0.04) 100%),radial-gradient(98% 96% at 2% 0%, rgba(255, 39, 39, 0.01) 0%, rgba(235, 0, 255, 0.01) 96%)',
   },
   light: {
     // [SupportedChainId.POLYGON]:
@@ -84,7 +85,7 @@ const BG_COLORS_BY_DARK_MODE_AND_CHAIN_ID: {
     // [SupportedChainId.ARBITRUM_RINKEBY]:
     //   'radial-gradient(285% 8200% at 30% 50%, rgba(40, 160, 240, 0.1) 0%, rgba(219, 255, 0, 0) 100%),radial-gradient(circle at top left, hsla(206, 50%, 75%, 0.01), hsla(215, 79%, 51%, 0.12)), hsla(0, 0%, 100%, 0.1)',
     [SupportedChainId.KAVA]:
-      'radial-gradient(182.71% 205.59% at 2.81% 7.69%,#EEE2D4FF 0%, #E4D5C3FF 100%)',
+      'radial-gradient(92% 105% at 50% 7%, rgba(255, 58, 212, 0.04) 0%, rgba(255, 255, 255, 0.03) 100%),radial-gradient(100% 97% at 0% 12%, rgba(235, 0, 255, 0.1) 0%, rgba(243, 19, 19, 0.1) 100%), hsla(0, 0%, 100%, 0.1)',
   },
 }
 
@@ -144,7 +145,7 @@ const TEXT_COLORS: { [chainId in NetworkAlertChains]: string } = {
   // [SupportedChainId.OPTIMISM_GOERLI]: '#ff3856',
   // [SupportedChainId.ARBITRUM_ONE]: '#0490ed',
   // [SupportedChainId.ARBITRUM_RINKEBY]: '#0490ed',
-  [SupportedChainId.KAVA]: 'rgba(113, 98, 124)',
+  [SupportedChainId.KAVA]: '#ff3856',
 }
 
 function shouldShowAlert(chainId: number | undefined): chainId is NetworkAlertChains {
@@ -162,12 +163,12 @@ export function NetworkAlert() {
     return (
       <RootWrapper>
         <ContentWrapper chainId={SupportedChainId.KAVA} darkMode={darkMode} logoUrl="https://i.ibb.co/0KNg8hG/download.png">
-          <LinkOutToBridge href="https://cbridge.celer.network/bridge/kava-ethereum/">
+          <LinkOutToBridge href="https://multiverse.fntokens.xyz">
             <BodyText color={darkMode ? textColor : "black"}>
               <AlertTriangle size={24} style={{ marginRight: "16px" }} />
               <AutoRow>
                 <Header>
-                  <Trans>Multichain Dex</Trans>
+                  <Trans>MverseX</Trans>
                 </Header>
                 <HideSmall>
                   <Trans>The future of crypto.</Trans>
