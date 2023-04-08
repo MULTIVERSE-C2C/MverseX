@@ -16,7 +16,7 @@ const STABLECOIN_AMOUNT_OUT: { [chainId: number]: CurrencyAmount<Token> } = {
   // [SupportedChainId.OPTIMISM]: CurrencyAmount.fromRawAmount(DAI_OPTIMISM, 10_000e18),
   // [SupportedChainId.POLYGON]: CurrencyAmount.fromRawAmount(USDC_POLYGON, 10_000e6),
   // [SupportedChainId.CELO]: CurrencyAmount.fromRawAmount(CUSD_CELO, 10_000e18),
-  [SupportedChainId.KAVA]: CurrencyAmount.fromRawAmount(USDC_KAVA, 10_000e6),
+ // [SupportedChainId.KAVA]: CurrencyAmount.fromRawAmount(USDC_KAVA, 10_000e6),
 }
 
 /**
