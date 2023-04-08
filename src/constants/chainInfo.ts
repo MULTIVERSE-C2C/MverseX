@@ -217,6 +217,7 @@ const CHAIN_INFO: ChainInfoMap = {
     docs: 'https://multiverse.fntokens.xyz',
     explorer: 'https://explorer.kava.io/',
     infoLink: 'https://info.uniswap.org/#/',
+    defaultListUrl: KAVA_LIST,
     label: 'KAVA',
     logoUrl: scrollLogo,
     nativeCurrency: { name: 'KAVA', symbol: 'KAVA', decimals: 18 },
