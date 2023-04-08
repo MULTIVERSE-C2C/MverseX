@@ -1,5 +1,5 @@
 import ethereumLogoUrl from 'assets/images/ethereum-logo.png'
-import scrollLogo from 'assets/svg/scroll_logo.svg'
+import kavaLogo from 'assets/svg/kava_logo.svg'
 import ms from 'ms.macro'
 import { darkTheme } from 'theme/colors'
 
@@ -219,7 +219,7 @@ const CHAIN_INFO: ChainInfoMap = {
     infoLink: 'https://info.uniswap.org/#/',
 
     label: 'KAVA',
-    logoUrl: scrollLogo,
+    logoUrl: kavaLogo,
     nativeCurrency: { name: 'KAVA', symbol: 'KAVA', decimals: 18 },
     //TODO: Add Scroll Brand Color
     color: darkTheme.chain_5,
