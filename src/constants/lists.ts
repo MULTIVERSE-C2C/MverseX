@@ -11,7 +11,7 @@ const KLEROS_LIST = 't2crtokens.eth'
 const ROLL_LIST = 'https://app.tryroll.com/tokens.json'
 const SET_LIST = 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json'
 const WRAPPED_LIST = 'wrapped.tokensoft.eth'
-
+const KAVA_LIST = 'https://github.com/MULTIVERSE-C2C/MverseX/blob/scroll-showcase/src/constants/tokenLists/KAVA.tokenlist.json'
 // export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
 // export const ARBITRUM_LIST = 'https://bridge.arbitrum.io/token-list-42161.json'
 // export const CELO_LIST = 'https://celo-org.github.io/celo-token-list/celo.tokenlist.json'
