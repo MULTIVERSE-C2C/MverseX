@@ -36,7 +36,7 @@ export const DEFAULT_INACTIVE_LIST_URLS: string[] = [
   // ARBITRUM_LIST,
   // OPTIMISM_LIST,
   // CELO_LIST,
-
+  KAVA_LIST,
 ...UNSUPPORTED_LIST_URLS,
 ]
 
