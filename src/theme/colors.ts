@@ -123,7 +123,7 @@ const commonTheme = {
 export const darkTheme = {
   ...commonTheme,
 
-  userThemeColor: colors.magentaVibrant,
+  userThemeColor: colors.redVibrant,
 
   background: colors.gray800,
   backgroundBackdrop: colors.gray950,
@@ -175,7 +175,7 @@ export const darkTheme = {
 export const lightTheme: Theme = {
   ...commonTheme,
 
-  userThemeColor: colors.magentaVibrant,
+  userThemeColor: colors.redVibrant,
 
   background: '#faf9fa', //INTENTIONALLY OFF THEME TO GIVE WHITE BG A SOFTER VISUAL
   backgroundBackdrop: colors.white,
@@ -198,7 +198,7 @@ export const lightTheme: Theme = {
   accentFailure: colors.red400,
   accentCritical: colors.red400,
 
-  accentActionSoft: opacify(24, colors.pink400),
+  accentActionSoft: opacify(24, colors.),
   accentActiveSoft: opacify(24, colors.blue400),
   accentSuccessSoft: opacify(24, colors.green400),
   accentWarningSoft: opacify(24, colors.gold200),
