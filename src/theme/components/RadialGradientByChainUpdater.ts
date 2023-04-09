@@ -85,16 +85,16 @@ export default function RadialGradientByChainUpdater(): null {
       //   break
       case SupportedChainId.KAVA:
         setBackground(backgroundResetStyles)
-        const scrollLightGradient = 'radial-gradient(142% 91% at 111% 84%, #FF0000 0%, #FF3333 100%), #FFFFFF'
-        const scrollDarkGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(177, 55, 46, 0.94) 0%, rgba(218, 37, 40, 0.94) 52.6%, rgba(0, 0, 0, 0) 100%), #0D0E0E'
+        const scrollLightGradient = 'radial-gradient(100% 100% at 50% 0%, rgba(255, 251, 242, 0.8) 0%, rgba(255, 244, 249, 0.6958) 50.52%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
+        const scrollDarkGradient = 'radial-gradient(100% 100% at 50% 0%, rgba(62, 46, 56, 0.8) 0%, rgba(44, 31, 45, 0.6958) 50.52%, rgba(31, 33, 40, 0) 100%), #0D0E0E'
+          
         backgroundRadialGradientElement.style.background = darkMode ? scrollDarkGradient : scrollLightGradient
         break
       default:
         setBackground(initialStyles)
         const defaultLightGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(255, 53, 38, 0.94) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
-        const defaultDarkGradient = 'linear-gradient(180deg, #202738 0%, #070816 100%)'
+          'radial-gradient(100% 100% at 50% 0%, rgba(255, 251, 242, 0.8) 0%, rgba(255, 244, 249, 0.6958) 50.52%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
+        const defaultDarkGradient = ''radial-gradient(100% 100% at 50% 0%, rgba(255, 251, 242, 0.8) 0%, rgba(255, 244, 249, 0.6958) 50.52%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
         backgroundRadialGradientElement.style.background = darkMode ? defaultDarkGradient : defaultLightGradient
     }
   }, [darkMode, chainId, isNftPage])
