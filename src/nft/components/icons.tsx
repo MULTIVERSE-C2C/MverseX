@@ -8916,7 +8916,7 @@ export const UniScrollIcon = (props: SVGProps) => (
       opacity={0.01568627450980392}
       d="M33.5 54.667h2.333l0.5 0.5v1.833h-2.333v-1.833l-0.5 -0.167v-0.333Z"
     />
-  </Svg>
+  </svg>
 
 )
 
