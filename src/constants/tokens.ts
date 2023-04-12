@@ -391,7 +391,14 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     18,
     'WKAVA',
     'Wrapped Kava'
-  ),
+    ),
+  [SupportedChainId.KAVA]: new Token(
+    SupportedChainId.KAVA,
+    '0x3f0BF5596902aAf15e09D63328B4176fC12E4206',
+    18,
+    'MVX',
+    'MverseX'
+    ),
 }
 
 export function isCelo(chainId: number) {
