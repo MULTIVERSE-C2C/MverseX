@@ -16,7 +16,7 @@ const WRAPPED_LIST = 'wrapped.tokensoft.eth'
 // export const ARBITRUM_LIST = 'https://bridge.arbitrum.io/token-list-42161.json'
 // export const CELO_LIST = 'https://celo-org.github.io/celo-token-list/celo.tokenlist.json'
 export const KAVA_LIST =
-  'https://github.com/MULTIVERSE-C2C/MverseX/blob/scroll-showcase/src/constants/tokenLists/KAVA.tokenlist.json'
+  'https://gateway.pinata.cloud/ipfs/QmWwk3aej7YEvMBVkXPD4GA3iyjvffkKWrcazUWQQz6SGe?_gl=1*10nsdbs*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4MTMwMzM5NC4xLjEuMTY4MTMwNDQwMy41Mi4wLjA.'
 
 export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST, UNI_UNSUPPORTED_LIST]
 
