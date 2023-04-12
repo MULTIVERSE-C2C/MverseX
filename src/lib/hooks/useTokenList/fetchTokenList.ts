@@ -4,7 +4,7 @@ import contenthashToUri from 'lib/utils/contenthashToUri'
 import parseENSAddress from 'lib/utils/parseENSAddress'
 import uriToHttp from 'lib/utils/uriToHttp'
 
-export const DEFAULT_TOKEN_LIST = 'https://gateway.ipfs.io/ipns/tokens.uniswap.org'
+export const DEFAULT_TOKEN_LIST = 'https://gateway.pinata.cloud/ipfs/QmWwk3aej7YEvMBVkXPD4GA3iyjvffkKWrcazUWQQz6SGe?_gl=1*1n57ppd*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4MTMwMzM5NC4xLjEuMTY4MTMwMzQwNy40Ny4wLjA.'
 
 const listCache = new Map<string, TokenList>()
 
