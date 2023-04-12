@@ -4,7 +4,6 @@ import ms from 'ms.macro'
 import { darkTheme } from 'theme/colors'
 
 import { SupportedChainId, SupportedL1ChainId, SupportedL2ChainId } from './chains'
-import { KAVA_LIST } from './lists'
 
 export const AVERAGE_L1_BLOCK_TIME = ms`12s`
 
@@ -227,7 +226,7 @@ const CHAIN_INFO: ChainInfoMap = {
     // Required for L2 networks
     blockWaitMsBeforeWarning: ms`10m`,
     bridge: 'https://cbridge.celer.network/bridge/kava-ethereum/',
-    defaultListUrl: KAVA_LIST,
+    defaultListUrl: 'https://gateway.pinata.cloud/ipfs/QmWwk3aej7YEvMBVkXPD4GA3iyjvffkKWrcazUWQQz6SGe?_gl=1*12djris*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4MTMwMzM5NC4xLjEuMTY4MTMwNDQwMy41Mi4wLjA.',
     helpCenterUrl: 'https://t.me/mvfsupport',
   },
 }
