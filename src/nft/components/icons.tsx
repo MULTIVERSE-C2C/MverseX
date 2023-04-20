@@ -19,7 +19,7 @@ export const UniIcon = (props: SVGProps) => (
 
 export const UniScrollIcon = (props: SVGProps) => (
   <svg {...props} fill="#0590d3" style={{marginLeft:"6px"}} xmlns="http://www.w3.org/2000/svg" x="32px" y="32px" viewBox="0 0 90.51 48">
-   <image width="96px" height="96px" href="https://i.ibb.co/cY3h4Tr/Screenshot-20221206-144132-2-removebg-preview.png" />
+   <image width="64px" height="64px" href="https://i.ibb.co/cY3h4Tr/Screenshot-20221206-144132-2-removebg-preview.png" />
   </svg>
 )
 
