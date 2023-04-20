@@ -312,12 +312,24 @@ export const SWISE = new Token(
 //   'Celo Dollar'
 // )
 // export const CEUR_CELO_ALFAJORES = new Token(
-//   SupportedChainId.CELO_ALFAJORES,
-//   '0x10c892A6EC43a53E45D0B916B4b7D383B1b78C0F',
-//   18,
-//   'CEUR',
-//   'Celo Euro Stablecoin'
-// )
+export const KAVA = new Token(
+
+    SupportedChainId.KAVA,
+
+    '0x3f0BF5596902aAf15e09D63328B4176fC12E4206',
+
+    18,
+
+    'MVX',
+
+    'MverseX'
+
+    )
+
+
+
+
+)
 
 export const UNI: { [chainId: number]: Token } = {
   [SupportedChainId.MAINNET]: new Token(SupportedChainId.MAINNET, UNI_ADDRESS[1], 18, 'UNI', 'Uniswap'),
@@ -392,13 +404,7 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WKAVA',
     'Wrapped Kava'
     ),
-  [SupportedChainId.KAVA]: new Token(
-    SupportedChainId.KAVA,
-    '0x3f0BF5596902aAf15e09D63328B4176fC12E4206',
-    18,
-    'MVX',
-    'MverseX'
-    ),
+
 }
 
 export function isCelo(chainId: number) {
