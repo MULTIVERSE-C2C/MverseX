@@ -87,7 +87,7 @@ export type SupportedTestnetChainId = typeof TESTNET_CHAIN_IDS[number]
  */
 export const L1_CHAIN_IDS = [
  
-  // SupportedChainId.ROPSTEN,
+   SupportedChainId.MAINNET,
   // SupportedChainId.RINKEBY,
   // SupportedChainId.GOERLI,
   // SupportedChainId.KOVAN,
@@ -95,7 +95,7 @@ export const L1_CHAIN_IDS = [
   // SupportedChainId.POLYGON_MUMBAI,
   // SupportedChainId.CELO,
   // SupportedChainId.CELO_ALFAJORES,
-  SupportedChainId.KAVA,
+  // SupportedChainId.KAVA,
 ] as const
 
 export type SupportedL1ChainId = typeof L1_CHAIN_IDS[number]
@@ -109,7 +109,7 @@ export const L2_CHAIN_IDS = [
   // SupportedChainId.ARBITRUM_RINKEBY,
   // SupportedChainId.OPTIMISM,
   // SupportedChainId.OPTIMISM_GOERLI,
-  SupportedChainId.MAINNET,
+  SupportedChainId.KAVA,
   
 ] as const
 
