@@ -49,7 +49,7 @@ type ChainInfoMap = { readonly [chainId: number]: L1ChainInfo | L2ChainInfo } & 
 
 const CHAIN_INFO: ChainInfoMap = {
   [SupportedChainId.MAINNET]: {
-    networkType: NetworkType.L1,
+    networkType: NetworkType.L2,
     docs: 'https://docs.uniswap.org/',
     explorer: 'https://etherscan.io/',
     infoLink: 'https://info.uniswap.org/#/',
@@ -212,7 +212,7 @@ const CHAIN_INFO: ChainInfoMap = {
   //   defaultListUrl: CELO_LIST,
   // },
   [SupportedChainId.KAVA]: {
-    networkType: NetworkType.L2,
+    networkType: NetworkType.L1,
     docs: 'https://multiverse.fntokens.xyz',
     explorer: 'https://explorer.kava.io/',
     infoLink: 'https://info.uniswap.org/#/',
