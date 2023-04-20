@@ -312,19 +312,10 @@ export const SWISE = new Token(
 //   'Celo Dollar'
 // )
 // export const CEUR_CELO_ALFAJORES = new Token(
-export const KAVA = new Token(
 
-    SupportedChainId.KAVA,
 
-    '0x3f0BF5596902aAf15e09D63328B4176fC12E4206',
 
-    18,
-
-    'MVX',
-
-    'MverseX'
-
-    )
+ 
 
 
 
