@@ -63,7 +63,7 @@ export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
  * Unsupported networks for V2 pool behavior.
  */
 export const UNSUPPORTED_V2POOL_CHAIN_IDS = [
-  696969, // fake
+  2222, // fake
   // SupportedChainId.POLYGON,
   // SupportedChainId.OPTIMISM,
   // SupportedChainId.ARBITRUM_ONE,
