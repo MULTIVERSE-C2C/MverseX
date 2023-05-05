@@ -44,7 +44,7 @@ export const CHAIN_IDS_TO_NAMES = {
  * Array of all the supported chain IDs
  */
 export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = Object.values(SupportedChainId).filter(
-  (id) => typeof id === 'number' && id !== 1
+  (id) => typeof id === 'number' && id !== 2222
 ) as SupportedChainId[]
 
 export function isSupportedChain(chainId: number | null | undefined): chainId is SupportedChainId {
@@ -63,7 +63,7 @@ export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
  * Unsupported networks for V2 pool behavior.
  */
 export const UNSUPPORTED_V2POOL_CHAIN_IDS = [
-  2222, // fake
+   // fake
   // SupportedChainId.POLYGON,
   // SupportedChainId.OPTIMISM,
   // SupportedChainId.ARBITRUM_ONE,
@@ -76,7 +76,7 @@ export const TESTNET_CHAIN_IDS = [
   // SupportedChainId.KOVAN,
   // SupportedChainId.POLYGON_MUMBAI,
   // SupportedChainId.ARBITRUM_RINKEBY,
-  // SupportedChainId.OPTIMISM_GOERLI,
+   SupportedChainId.KAVA,
   
 ] as const
 
