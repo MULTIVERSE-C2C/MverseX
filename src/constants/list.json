@@ -1,5 +1,5 @@
 {
-  "name": "My Token List",
+  "name": "MverseX",
   "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
   "keywords": [
     "audited",
@@ -10,6 +10,10 @@
     "stablecoin": {
       "name": "Stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+     "Protocl Token": {
+      "name": "MverseX",
+      "description": "Tokens that are used within the multiverse ecosystem"
     },
     "compound": {
       "name": "Compound Finance",
@@ -29,13 +33,112 @@
         "stablecoin"
       ]
     },
+     {
+      "chainId": 2222,
+      "address": "0x3f0BF5596902aAf15e09D63328B4176fC12E4206",
+      "symbol": "MVX",
+      "name": "MverseX",
+      "decimals": 18,
+      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+      "tags": [
+        "MverseX"
+      ]
+    },
+     {
+      "chainId": 2222,
+      "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
+      "symbol": "ELK",
+      "name": "Elk",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmbzUwfSpwqBD8LXR8oucneha7yN1PpmyTF5VhJrmi8Sj2?_gl=1*q2481u*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0Mzk5My42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmUZpme8LEKDbXGePxTW4WdHjTeUZd1Q26endWzYnH7djJ?_gl=1*1ksz4vg*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDY1MC42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0x0F428D528b4f00c82A8Ad032580d605Cf5F122ee",
+      "symbol": "TIDE",
+      "name": "Surfswap Token",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmWt9xYSDTTxd8jPP1bxDa7SDXtFgmZJKyDW4YUUgKS9DQ?_gl=1*eh2m7v*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDc4My42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmWvxhNYLvuQMsVp74gbmfY3dMoxez8sWGKPTfCps5N3qo?_gl=1*9uu0c0*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDkxMi42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmWvxhNYLvuQMsVp74gbmfY3dMoxez8sWGKPTfCps5N3qo?_gl=1*9uu0c0*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDkxMi42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+     {
+      "chainId": 2222,
+      "address": "0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327",
+      "symbol": "BIFI",
+      "name": "beefy.finance",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmaPe3deNoBVSBdezYxHWc1QfDJLiUYrdb9nLUNC3koSBS?_gl=1*p8sqqa*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NTAzOS42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmaqexXNFivsbQRYSdvEq1pQiDHy2G8DkrrmmqiUiCiEDQ?_gl=1*8hx780*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDM4NC42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
+      "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmdUshyLUMRgwy6Wirj6r3dwQsUddmrG2tVVfPXN8XfCjd?_gl=1*1ml5obx*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDQ4Ni42MC4wLjA.",
+      "tags": [
+        "stablecoin"
+      ]
+    },
     {
       "chainId": 2222,
       "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
       "symbol": "VARA",
       "name": "Vara",
       "decimals": 18,
-      "logoURI": "https://i.ibb.co/0Zz0QFX/equilibre.png",
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmdFDESJiLpZrDDgPG8iTPDUUnyi4UDHuuSbm1MwCFxiw5?_gl=1*1qinmgs*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDQ4Ni42MC4wLjA.",
       "tags": [
         "dex"
       ]
