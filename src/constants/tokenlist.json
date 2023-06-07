@@ -1,0 +1,168 @@
+{
+  "name": "UCASH",
+  "logoURI": "https://i.imgur.com/Y2oqSOp.png",
+  "keywords": [
+    "ucash",
+    "defi"
+  ],
+  "timestamp": "2020-10-19T12:32:17.000+00:00",
+  "tokens": [
+    {
+      "name": "USD Coin",
+      "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 2222,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdc.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/dai.svg"
+    },
+    {
+      "chainId": 2222,
+      "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+      "name": "Vara",
+      "symbol": "VARA",
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/0Zz0QFX/equilibre.png"
+    },
+    {
+      "chainId": 2222,
+      "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+      "name": "Wrapped Kava",
+      "symbol": "WKAVA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdc.svg"
+    },
+    {
+      "chainId": 2222,
+      "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
+      "name": "Elk",
+      "symbol": "ELK",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 4,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Universal Cash",
+      "symbol": "rUCASH",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x18d0e9a30489c78ecebc1afd7ff5d94036cb327f",
+      "name": "UCAD",
+      "symbol": "UCAD",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/SGYdlO9.png"
+    },
+    {
+      "chainId": 4,
+      "address": "0xd92e713d051c37ebb2561803a3b5fbabc4962431",
+      "name": "TestUsdtToken",
+      "symbol": "TUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 4,
+      "address": "0xFDB0b435c9C1Fcf81B686aeef33d04f33888dB0c",
+      "name": "uus",
+      "symbol": "uus",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 4,
+      "address": "0x245d53aa8356783f3a5bb72b3bd793fe2fa33c9f",
+      "name": "tusd",
+      "symbol": "tusd",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 56,
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=010"
+    },
+    {
+      "chainId": 56,
+      "address": "0xb2535bc0cb30273b7b109eda98b348d4f4634e05",
+      "name": "bUCASH",
+      "symbol": "bUCASH",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 30,
+      "address": "0xa511ec4390350b6817CA9122Df8Bd8297eA532F0",
+      "name": "RSK Smart XCP",
+      "symbol": "RXCP",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 30,
+      "address": "0xFa26ecdA879AC88AfD047cc6e046E85B9aFBa2CC",
+      "name": "Wrapped Smart Bitcoin",
+      "symbol": "WRBTC",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0x0C7c9b794EF4beF7110EC33f95f1eb098b3a6a38",
+      "name": "Wrapped tRBTC",
+      "symbol": "WRBTC",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0x08Eda877e32907aA13a04c6f70e6fd73e3436470",
+      "name": "Unocoin",
+      "symbol": "UNO",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0xCB46c0ddc60D18eFEB0E586C17Af6ea36452Dae0",
+      "name": "Dollar on Chain",
+      "symbol": "DOC",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0xe355c280131dfaf18bf1c3648aee3c396db6b5fd",
+      "name": "Brazilian Digital Token",
+      "symbol": "BRZ",
+      "decimals": 4,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0x19F64674D8A5B4E652319F5e239eFd3bc969A1fE",
+      "name": "tRIF Token",
+      "symbol": "tRIF",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}
