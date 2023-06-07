@@ -24,7 +24,7 @@
       "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/dai.svg"
     },
     {
-      "chainId": 2222,
+      "chainId": kava,
       "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
       "name": "Vara",
       "symbol": "VARA",
