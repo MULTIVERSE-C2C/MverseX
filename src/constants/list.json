@@ -39,7 +39,7 @@
       "symbol": "MVX",
       "name": "MverseX",
       "decimals": 18,
-      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmefYyf7xF6u6Y8ivzSoR7u8Hqcg8Nk1zWN8RvNn3ctjGC?_gl=1*rhbk16*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NTI2Ny42MC4wLjA.",
       "tags": [
         "MverseX"
       ]
@@ -90,11 +90,11 @@
     },
     {
       "chainId": 2222,
-      "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-      "symbol": "WBTC",
-      "name": "Wrapped BTC",
-      "decimals": 8,
-      "logoURI": "https://gateway.pinata.cloud/ipfs/QmWvxhNYLvuQMsVp74gbmfY3dMoxez8sWGKPTfCps5N3qo?_gl=1*9uu0c0*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NDkxMi42MC4wLjA.",
+      "address": "0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B",
+      "symbol": "ACS",
+      "name": "ACryptoS",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmQnoEUDeJk2fhxg5RnWAw6XpK97mAc5FonJM57epj8J3F?_gl=1*1qtxb8g*rs_ga*NDk3MDRjZWUtYzMyMy00N2RkLWI4N2EtNjYyNzkxM2M2MzI4*rs_ga_5RMPXG14TE*MTY4NjE0MzgxMC42LjEuMTY4NjE0NTIwMS42MC4wLjA.",
       "tags": [
         "stablecoin"
       ]
