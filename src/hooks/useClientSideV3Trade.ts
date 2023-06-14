@@ -1,5 +1,5 @@
 import { Currency, CurrencyAmount, TradeType } from '@uniswap/sdk-core'
-import { Route, SwapQuoter } from '@uniswap/v3-sdk'
+import { Route, SwapQuoter } from '@dc1994/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { SupportedChainId } from 'constants/chains'
 import JSBI from 'jsbi'
