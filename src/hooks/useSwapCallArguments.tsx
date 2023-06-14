@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { SwapRouter, Trade } from '@uniswap/router-sdk'
 import { Currency, Percent, TradeType } from '@uniswap/sdk-core'
-import { FeeOptions } from '@uniswap/v3-sdk'
+import { FeeOptions } from '@dc1994/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { SWAP_ROUTER_ADDRESSES } from 'constants/addresses'
 import { useMemo } from 'react'
