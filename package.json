@@ -155,7 +155,7 @@
     "@uniswap/v2-sdk": "^3.0.1",
     "@uniswap/v3-core": "1.0.0",
     "@uniswap/v3-periphery": "^1.1.1",
-    "@uniswap/v3-sdk": "MULTIVERSE-C2C/v3-sdk",
+    "@uniswap/v3-sdk": "dc1994/v3-sdk",
     "@uniswap/widgets": "2.22.10",
     "@vanilla-extract/css": "^1.7.2",
     "@vanilla-extract/css-utils": "^0.1.2",
